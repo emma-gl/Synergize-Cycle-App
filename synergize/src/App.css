@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-logo {
+  height: 8vmin;
+  pointer-events: none;
+}
+
+.App-title {
+  margin-left: 1rem;
+  font-size: 3rem;
+}
+
+footer.App-footer {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 5vh;
+  line-height: 5vh;
+}
