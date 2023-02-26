@@ -62,7 +62,7 @@ function showNextMenstruationDate() {
   const inputDate = document.getElementById('inputDate').value;
   const nextCycle = getNextMenstruationDate(inputDate);
   const currentDate = new Date();
-  const cycleLength = document.getElementById('cycleLength').value; // assuming a 28-day cycle length, modify as needed
+  const cycleLength = document.getElementById('cycleLength').value; 
   const timeDiff = Math.abs(currentDate.getTime() - new Date(inputDate).getTime());
   const diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
   const cycleDay = (diffDays % cycleLength) + 1;
