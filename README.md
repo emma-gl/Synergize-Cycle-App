@@ -4,7 +4,7 @@ Using React JS, the server is hosted on port 3000 of the computer. To start a de
 
 My purpose for writing this program was to provide a way for women to be able to keep track and better understand their cycles. Women's cycles consist of 4 phases that change over the course of ≈28 days- which really changes woman-to-woman, so my web app provides a way for a user to know what stage of their cycle they're in and when they're next cycle will begin when they enter their information.
 
-[Software Demo Video](https://www.loom.com/share/c66cc41fc2f94642a884bb0de6b56041)
+
 
 # Web Page
 
